@@ -1,0 +1,2 @@
+module JobsStructuresHelper
+end

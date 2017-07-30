@@ -1,25 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The app created for challenge
 
-Things you may want to cover:
+* My first idea of layout was called MockUp.png and it was added to structure files of app.
 
-* Ruby version
+# List of steps 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* First I'm thinking about creating input and output based model, but this app is too simple, so I was avoid them.
+* Creating simple input - output logic
+* Add simple front-end
 
 * ...
 # jobsboard
