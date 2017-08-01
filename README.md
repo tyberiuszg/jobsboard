@@ -6,9 +6,11 @@ The app created for challenge
 
 # List of steps 
 
-* First I'm thinking about creating input and output based model, but this app is too simple, so I was avoid them.
 * Creating simple input - output logic
 * Add simple front-end
+* Creting business logic
+* Testing
+* Deploy to Heroku
 
 * ...
 # jobsboard
