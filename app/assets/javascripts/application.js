@@ -16,6 +16,9 @@
 //= require turbolinks
 //= require materialize-sprockets
 //= require_tree .
+
 $('.materialize-textarea').trigger('autoresize');
 
-
+$(document).on('ready page:load', function () {
+    $('.materialize-textarea').trigger('autoresize');
+  });

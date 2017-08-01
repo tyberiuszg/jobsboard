@@ -12,9 +12,9 @@ respond_to :html, :js
   	jobs_structure = JobSequence.new(@input)
     
     if jobs_structure.self_dependency_exists?
-      @output = "Job cannot depend upon themselves" 
+      @output = '<i class="material-icons" id="error">warning</i>  Job cannot depend upon themselves'.html_safe 
     elsif jobs_structure.circular_dependency_exists?    	
-      @output = "Job sequence contains a circular dependency"
+      @output = '<i class="material-icons" id="error">warning</i> Job sequence contains a circular dependency'.html_safe 
     else
       @output = jobs_structure.result
     end
